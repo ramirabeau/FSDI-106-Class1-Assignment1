@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*body*/
+
+html,
+body {
+    background-image: url("../img/cloud.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    background-color: #4b1818;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2rem;
+}
+
+
+/*body div*/
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: gray;
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#btnAdd {
+    background-color: rgb(60, 148, 64);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+#todoText ::placeholder {
+    color: black;
+}
+
+#todoText {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+/*div ul */
+
+#pendingList {
+    padding: 1rem;
+    margin: 10px 10rem 0 10rem;
+}
+
+#pendingList li {
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background: #4b1818;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+#pendingList li:hover {
+    border: 10px;
+    padding-left: 2rem;
+    background-color: black;
+}
